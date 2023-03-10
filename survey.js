@@ -19,7 +19,7 @@ const questions = [
     type: "input",
     name: "userEmail",
     message: (userAnswer) => {
-      return `Hello ${userAnswer.userFirstName} What's your email address?`
+      return `Hello ${userAnswer.userFirstName}, What's your email address?`
     },
     validate: (userAnswer) => {
       if (!userAnswer) {
